@@ -8,11 +8,3 @@
 <img src="https://github.com/cassio-silva/next-move/blob/main/public/prints/print-levelup.png" alt="Subiu de nivel" width="400" />
 
 - No Desenvolvimento desse projeto aprendemos conceitos de estado e contexto no React, uso de armazenamento local de dados através de cookies, 'css modules', e uma aplicação prática do Next.js.
-
-### Clonando o projeto
-- No seu terminal git digite o seguinte comando:
-  - `git clone https://github.com/cassio-silva/next-move`
-### Atualizando dependencias
-- Na pasta do projeto digite o comando `yarn`, para que os pacotes e dependencias do projetos sejam baixadas e atualizas.
-### Rodando Localmente
-- Digite o comando `yarn dev` para rodar o projeto localmente na sua máquina.
