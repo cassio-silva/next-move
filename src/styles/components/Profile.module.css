@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container > img {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+}
+
+.container div {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.5rem;
+}
+
+.container div span:first-child {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--title);
+}
+
+.container div span:last-child {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.container div span:last-child img {
+  margin-right: 0.5rem;
+}
