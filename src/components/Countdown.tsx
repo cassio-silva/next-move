@@ -9,7 +9,8 @@ export function Countdown () {
     hasFinished, 
     isActive, 
     resetCountdown, 
-    startCountdown 
+    startCountdown,
+    setClockTimer
   } = useContext(CountdownContext);
 
   const [ minuteL, minuteR ] = String(minutes).padStart(2, '0').split('');
@@ -17,6 +18,15 @@ export function Countdown () {
 
   return (
     <div>
+      <div className={styles.optionsContainer}>
+        <label htmlFor="time">Minutos:</label>
+        <select name="time" onChange={(e) => {setClockTimer(e.target.value)}}>
+          <option value={5}>5</option>
+          <option value={10}>10</option>
+          <option value={15}>15</option>
+          <option value={25}>25</option>
+        </select>
+      </div>
       <div className={styles.container}>
         <div>
           <span>{minuteL}</span>
